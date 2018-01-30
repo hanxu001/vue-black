@@ -1,0 +1,68 @@
+#工具函数引用
+import {httpGet} from '../../utils/index'
+
+#标签式路由跳转
+<router-link to="/login" tag="a">立即登录</router-link>
+
+#编程式路由跳转
+this.$router.push(‘/login’)
+
+#行内简写
+@click="$router.push('/')"
+
+#测试账号
+1324567@qq.com
+123456
+
+#产品后台
+http://otc_dev.365yf.cc/admin/products
+
+#api data
+res.data.error_code
+
+#axios改变this作用域
+Var that = this;
+
+#路由传参，从路由url上解析参数
+this.id = this.$route.params.id;
+
+
+#vuex的理解
+适合使用的场景不是公用，而是共通(信)
+
+#post请求加sid参数
+sid存在userInfo中，使用的时候映射出来
+
+
+#图片预览的实现
+弹层
+内容是图片
+Url是变量
+点击小图获取url 赋值给弹层的url变量
+点击灰色区域关闭弹层
+再次点击小图重新获取url
+
+#vue采坑
+1.生产环境baseUrl设置为空再打包
+
+2.生产环境打包src文件中只留代码 图片放与src平级的static中 
+  这样打包出来的vendor.js才不会加载图片 加快首屏加载速度
+
+3.ele-ui upload组件的使用
+http-request
+
+#改进
+图片位置
+图片压缩
+Store数据量减少
+router按需加载
+
+#简单项目的响应式开发
+Pc和移动的差别：pc两端空白区域大 移动横向基本100%不留白
+项目引入rem
+会导致pc组件看起来很大。。。。
+尽量小一点，对应的移动端也会小
+
+#pc交易网站的尺寸最后需要调整一下，参考其他交易平台使用效果
+
+
